@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Storybooks Himalaya</title>
+    <description>Storybooks Himalaya is designed specifically for teachers, parents, and community members and makes 40 stories from the African Storybook available with text and audio in Nepali, Tibetan, English, and a variety of other regional Himalayan languages.
+</description>
+    <link>https://global-asp.github.io//storybooks-himalaya/</link>
+    <atom:link href="https://global-asp.github.io//storybooks-himalaya/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 24 Apr 2019 07:20:41 -0700</pubDate>
+    <lastBuildDate>Wed, 24 Apr 2019 07:20:41 -0700</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+  </channel>
+</rss>
