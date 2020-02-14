@@ -16,13 +16,16 @@
 	<meta name="description" content="Storybooks Himalaya is designed specifically for teachers, parents, and community members and makes 40 stories from the African Storybook available with text and audio in Nepali, Tibetan, English, and a variety of other regional Himalayan languages.
 ">
 	<link rel="stylesheet" href="/storybooks-himalaya/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-himalaya/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-himalaya/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-himalaya/stories/bo/0111/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Himalaya" href="/storybooks-himalaya">
 	<script src="/storybooks-himalaya/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -60,7 +63,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-himalaya/stories/bo" class="button">Back to stories list</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-himalaya/stories/bo">Back to stories list</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0111/01.jpg"></div>
@@ -68,22 +71,22 @@
 		<h1><span class="def">ཆུ་ཕག་གི་ལུས་པོར་ག་རེ་བྱས་ནས་སྤུ་ཡོད་མ་རེད།</span>
 			<span class="l1">Why hippos have no hair</span>
 			<span class="l2"></span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/bo/0111/mp3/01.mp3"></audio>
-				<button onclick="switchlang('bo,ne','ne,en,bo')" class="btn btn-lg lang-primary" title="Switch between Tibetan and Nepali">ne</button>
-				<button onclick="switchlang('bo,en','ne,en,bo')" class="btn btn-lg lang-secondary" title="Switch between Tibetan and English">en</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-himalaya/css/pencil.svg" alt="Written by" width="38px"></span> Basilio Gimo, David Ker</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon" src="/storybooks-himalaya/css/art.svg" alt="Illustrated by" width="38px"></span> Carol Liddiment</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon" src="/storybooks-himalaya/css/global.svg" alt="Translated by" width="38px"></span> འདབ་དྲུག Dabtruk, པཱཊ་རིག་ཌཱོཌ། Patrick Dowd, ཆུ་ཚང་བསོད་ནམས་རིན་ཆེན། Chusang Sonam Rinchen</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon" src="/storybooks-himalaya/css/megaphone.svg" alt="Read by" width="38px"></span> པད་མ་ཆོས་སྒྲོན། Pema Choedon</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-himalaya/css/language.svg" alt="Language" width="38px"></span> <a href="/storybooks-himalaya/stories/bo">Tibetan</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-himalaya/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-himalaya/stories/bo/level2">Level 2</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-himalaya/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/bo/0111/bo-0111_hippos.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/bo/0111/mp3/01.mp3"></audio>
+			<button onclick="switchlang('bo,ne','ne,en,bo')" class="btn btn-lg lang-primary" title="Switch between Tibetan and Nepali">ne</button>
+			<button onclick="switchlang('bo,en','ne,en,bo')" class="btn btn-lg lang-secondary" title="Switch between Tibetan and English">en</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/pencil.svg" alt="Written by"></span> Basilio Gimo, David Ker</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/art.svg" alt="Illustrated by"></span> Carol Liddiment</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/global.svg" alt="Translated by"></span> འདབ་དྲུག Dabtruk, པཱཊ་རིག་ཌཱོཌ། Patrick Dowd, ཆུ་ཚང་བསོད་ནམས་རིན་ཆེན། Chusang Sonam Rinchen</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/megaphone.svg" alt="Read by"></span> པད་མ་ཆོས་སྒྲོན། Pema Choedon</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/language.svg" alt="Language"></span> <a href="/storybooks-himalaya/stories/bo">Tibetan</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/level.svg" alt="Level"></span> <a href="/storybooks-himalaya/stories/bo/level2">Level 2</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-audio" src="/storybooks-himalaya/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/bo/0111/bo-0111_hippos.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -96,7 +99,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
 	One day, Rabbit was walking by the riverside.
@@ -125,7 +128,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
 	Hippo was there too, going for a stroll and eating some nice green grass.
@@ -154,12 +157,12 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Hippo didn't see that Rabbit was there and she accidentally stepped on Rabbit's foot.
+	Hippo didn’t see that Rabbit was there and she accidentally stepped on Rabbit’s foot.
 
-Rabbit started screaming at Hippo, "You Hippo! Can't you see that you're stepping on my foot?"
+Rabbit started screaming at Hippo, “You Hippo! Can’t you see that you’re stepping on my foot?”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -185,12 +188,12 @@ Rabbit started screaming at Hippo, "You Hippo! Can't you see that you're steppin
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Hippo apologised to Rabbit, "I'm so sorry. I didn't see you. Please forgive me!"
+	Hippo apologised to Rabbit, “I’m so sorry. I didn’t see you. Please forgive me!”
 
-But Rabbit wouldn't listen and he shouted at Hippo, "You did that on purpose! Someday, you'll see! You're going to pay!"
+But Rabbit wouldn’t listen and he shouted at Hippo, “You did that on purpose! Someday, you’ll see! You’re going to pay!”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -216,12 +219,12 @@ But Rabbit wouldn't listen and he shouted at Hippo, "You did that on purpose! So
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Rabbit went to find Fire and said, "Go, burn Hippo when she comes out of the water to eat grass. She stepped on me!"
+	Rabbit went to find Fire and said, “Go, burn Hippo when she comes out of the water to eat grass. She stepped on me!”
 
-Fire answered, "No problem, Rabbit, my friend. I'll do just what you ask."
+Fire answered, “No problem, Rabbit, my friend. I’ll do just what you ask.”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -247,10 +250,10 @@ Fire answered, "No problem, Rabbit, my friend. I'll do just what you ask."
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Later, Hippo was eating grass far from the river when, "Whoosh!" Fire burst into flame. The flames began to burn Hippo's hair.
+	Later, Hippo was eating grass far from the river when, “Whoosh!” Fire burst into flame. The flames began to burn Hippo’s hair.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -276,12 +279,12 @@ Fire answered, "No problem, Rabbit, my friend. I'll do just what you ask."
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
 	Hippo started to cry and ran for the water. All her hair was burned off by the fire.
 
-Hippo kept crying, "My hair has burned in the fire! My hair is all gone! My beautiful hair!"
+Hippo kept crying, “My hair has burned in the fire! My hair is all gone! My beautiful hair!”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -307,10 +310,10 @@ Hippo kept crying, "My hair has burned in the fire! My hair is all gone! My beau
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Rabbit was happy that Hippo's hair was burned.
+	Rabbit was happy that Hippo’s hair was burned.
 
 And to this day, for fear of fire, the hippo never goes far from the water.
 	</h3></div>
@@ -338,9 +341,9 @@ And to this day, for fear of fire, the hippo never goes far from the water.
 		<h5>Read by: པད་མ་ཆོས་སྒྲོན། Pema Choedon</h5>
 		<h5>Language: <a href="/storybooks-himalaya/stories/bo">Tibetan</a></h5>
 		<h5><a href="/storybooks-himalaya/stories/bo/level2">Level 2</a></h5>
-		<h5>Source: <a href="https://africanstorybook.org/stories/6160" target="_blank">Why hippos have no hair</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
+		<h5>Source: <a href="https://africanstorybook.org/reader.php?id=6160" target="_blank">Why hippos have no hair</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 International License</a>.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 International License</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
@@ -362,6 +365,8 @@ And to this day, for fear of fire, the hippo never goes far from the water.
 	<a class="btn btn-lg" href="/storybooks-himalaya/stories/bo" class="button">Back to stories list</a> <a class="btn btn-lg disabled" target="_blank" href="">Download PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 

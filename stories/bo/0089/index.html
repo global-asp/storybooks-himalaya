@@ -16,13 +16,16 @@
 	<meta name="description" content="Storybooks Himalaya is designed specifically for teachers, parents, and community members and makes 40 stories from the African Storybook available with text and audio in Nepali, Tibetan, English, and a variety of other regional Himalayan languages.
 ">
 	<link rel="stylesheet" href="/storybooks-himalaya/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-himalaya/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-himalaya/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-himalaya/stories/bo/0089/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Himalaya" href="/storybooks-himalaya">
 	<script src="/storybooks-himalaya/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -60,7 +63,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-himalaya/stories/bo" class="button">Back to stories list</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-himalaya/stories/bo">Back to stories list</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0089/01.jpg"></div>
@@ -68,22 +71,22 @@
 		<h1><span class="def">ཀཱ་ལཱ་ཡི་ཀྱིས་རྩི་ཤིང་ལ་སྐད་ཆ་བཤད་པ།</span>
 			<span class="l1">Khalai talks to plants</span>
 			<span class="l2"></span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/bo/0089/mp3/01.mp3"></audio>
-				<button onclick="switchlang('bo,ne','ne,en,bo')" class="btn btn-lg lang-primary" title="Switch between Tibetan and Nepali">ne</button>
-				<button onclick="switchlang('bo,en','ne,en,bo')" class="btn btn-lg lang-secondary" title="Switch between Tibetan and English">en</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-himalaya/css/pencil.svg" alt="Written by" width="38px"></span> Ursula Nafula</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon" src="/storybooks-himalaya/css/art.svg" alt="Illustrated by" width="38px"></span> Jesse Pietersen</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon" src="/storybooks-himalaya/css/global.svg" alt="Translated by" width="38px"></span> འདབ་དྲུག Dabtruk, པཱཊ་རིག་ཌཱོཌ། Patrick Dowd, ཆུ་ཚང་བསོད་ནམས་རིན་ཆེན། Chusang Sonam Rinchen</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon" src="/storybooks-himalaya/css/megaphone.svg" alt="Read by" width="38px"></span> པད་མ་ཆོས་སྒྲོན། Pema Choedon</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-himalaya/css/language.svg" alt="Language" width="38px"></span> <a href="/storybooks-himalaya/stories/bo">Tibetan</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-himalaya/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-himalaya/stories/bo/level2">Level 2</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-himalaya/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/bo/0089/bo-0089_khalai.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/bo/0089/mp3/01.mp3"></audio>
+			<button onclick="switchlang('bo,ne','ne,en,bo')" class="btn btn-lg lang-primary" title="Switch between Tibetan and Nepali">ne</button>
+			<button onclick="switchlang('bo,en','ne,en,bo')" class="btn btn-lg lang-secondary" title="Switch between Tibetan and English">en</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/pencil.svg" alt="Written by"></span> Ursula Nafula</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/art.svg" alt="Illustrated by"></span> Jesse Pietersen</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/global.svg" alt="Translated by"></span> འདབ་དྲུག Dabtruk, པཱཊ་རིག་ཌཱོཌ། Patrick Dowd, ཆུ་ཚང་བསོད་ནམས་རིན་ཆེན། Chusang Sonam Rinchen</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/megaphone.svg" alt="Read by"></span> པད་མ་ཆོས་སྒྲོན། Pema Choedon</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/language.svg" alt="Language"></span> <a href="/storybooks-himalaya/stories/bo">Tibetan</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/level.svg" alt="Level"></span> <a href="/storybooks-himalaya/stories/bo/level2">Level 2</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-audio" src="/storybooks-himalaya/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/bo/0089/bo-0089_khalai.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -96,13 +99,13 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
 	This is Khalai.
 She is seven years old.
-Her name means 'the
-good one' in her
+Her name means ‘the
+good one’ in her
 language, Lubukusu.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
@@ -129,14 +132,14 @@ language, Lubukusu.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
 	Khalai wakes up and
 talks to the orange tree.
-"Please orange tree,
+“Please orange tree,
 grow big and give us
-lots of ripe oranges."
+lots of ripe oranges.”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -162,14 +165,14 @@ lots of ripe oranges."
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
 	Khalai walks to school.
 On the way she talks to
-the grass. "Please
+the grass. “Please
 grass, grow greener
-and don't dry up."
+and don’t dry up.”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -195,14 +198,14 @@ and don't dry up."
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
 	Khalai passes wild
-flowers. "Please
+flowers. “Please
 flowers, keep blooming
 so I can put you in my
-hair."
+hair.”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -228,16 +231,16 @@ hair."
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
 	At school, Khalai talks
 to the tree in the
 middle of the
-compound. "Please
+compound. “Please
 tree, put out big
 branches so we can
-read under your shade."
+read under your shade.”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -263,14 +266,14 @@ read under your shade."
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
 	Khalai talks to the
 hedge around her school.
-"Please grow strong
+“Please grow strong
 and stop bad people
-from coming in."
+from coming in.”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -296,14 +299,14 @@ from coming in."
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
 	When Khalai returns
 home from school, she
 visits the orange tree.
-"Are your oranges ripe
-yet?" asks Khalai.
+“Are your oranges ripe
+yet?” asks Khalai.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -329,16 +332,16 @@ yet?" asks Khalai.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	"The oranges are still
-green," sighs Khalai.
-"I will see you tomorrow
-orange tree," says
-Khalai. "Perhaps then
+	“The oranges are still
+green,” sighs Khalai.
+“I will see you tomorrow
+orange tree,” says
+Khalai. “Perhaps then
 you will have a ripe
-orange for me!"
+orange for me!”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -364,9 +367,9 @@ orange for me!"
 		<h5>Read by: པད་མ་ཆོས་སྒྲོན། Pema Choedon</h5>
 		<h5>Language: <a href="/storybooks-himalaya/stories/bo">Tibetan</a></h5>
 		<h5><a href="/storybooks-himalaya/stories/bo/level2">Level 2</a></h5>
-		<h5>Source: <a href="https://africanstorybook.org/stories/13545" target="_blank">Khalai talks to plants</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
+		<h5>Source: <a href="https://africanstorybook.org/reader.php?id=13545" target="_blank">Khalai talks to plants</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
@@ -388,6 +391,8 @@ orange for me!"
 	<a class="btn btn-lg" href="/storybooks-himalaya/stories/bo" class="button">Back to stories list</a> <a class="btn btn-lg disabled" target="_blank" href="">Download PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 

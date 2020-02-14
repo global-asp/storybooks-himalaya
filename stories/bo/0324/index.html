@@ -16,13 +16,16 @@
 	<meta name="description" content="Storybooks Himalaya is designed specifically for teachers, parents, and community members and makes 40 stories from the African Storybook available with text and audio in Nepali, Tibetan, English, and a variety of other regional Himalayan languages.
 ">
 	<link rel="stylesheet" href="/storybooks-himalaya/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-himalaya/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-himalaya/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-himalaya/stories/bo/0324/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Himalaya" href="/storybooks-himalaya">
 	<script src="/storybooks-himalaya/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -60,7 +63,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-himalaya/stories/bo" class="button">Back to stories list</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-himalaya/stories/bo">Back to stories list</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0324/01.jpg"></div>
@@ -68,22 +71,22 @@
 		<h1><span class="def">ང་གྲོང་གསེབ་ནས་གྲོང་ཁྱེར་ལ་ཕྱིན་པའི་ཉིན་མོ།</span>
 			<span class="l1">The day I left home for the city</span>
 			<span class="l2"></span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/bo/0324/mp3/01.mp3"></audio>
-				<button onclick="switchlang('bo,ne','ne,en,bo')" class="btn btn-lg lang-primary" title="Switch between Tibetan and Nepali">ne</button>
-				<button onclick="switchlang('bo,en','ne,en,bo')" class="btn btn-lg lang-secondary" title="Switch between Tibetan and English">en</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-himalaya/css/pencil.svg" alt="Written by" width="38px"></span> Lesley Koyi, Ursula Nafula</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon" src="/storybooks-himalaya/css/art.svg" alt="Illustrated by" width="38px"></span> Brian Wambi</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon" src="/storybooks-himalaya/css/global.svg" alt="Translated by" width="38px"></span> འདབ་དྲུག Dabtruk, པཱཊ་རིག་ཌཱོཌ། Patrick Dowd, ཆུ་ཚང་བསོད་ནམས་རིན་ཆེན། Chusang Sonam Rinchen</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon" src="/storybooks-himalaya/css/megaphone.svg" alt="Read by" width="38px"></span> པད་མ་ཆོས་སྒྲོན། Pema Choedon</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-himalaya/css/language.svg" alt="Language" width="38px"></span> <a href="/storybooks-himalaya/stories/bo">Tibetan</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-himalaya/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-himalaya/stories/bo/level3">Level 3</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-himalaya/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/bo/0324/bo-0324_city.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/bo/0324/mp3/01.mp3"></audio>
+			<button onclick="switchlang('bo,ne','ne,en,bo')" class="btn btn-lg lang-primary" title="Switch between Tibetan and Nepali">ne</button>
+			<button onclick="switchlang('bo,en','ne,en,bo')" class="btn btn-lg lang-secondary" title="Switch between Tibetan and English">en</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/pencil.svg" alt="Written by"></span> Lesley Koyi, Ursula Nafula</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/art.svg" alt="Illustrated by"></span> Brian Wambi</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/global.svg" alt="Translated by"></span> འདབ་དྲུག Dabtruk, པཱཊ་རིག་ཌཱོཌ། Patrick Dowd, ཆུ་ཚང་བསོད་ནམས་རིན་ཆེན། Chusang Sonam Rinchen</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/megaphone.svg" alt="Read by"></span> པད་མ་ཆོས་སྒྲོན། Pema Choedon</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/language.svg" alt="Language"></span> <a href="/storybooks-himalaya/stories/bo">Tibetan</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/level.svg" alt="Level"></span> <a href="/storybooks-himalaya/stories/bo/level3">Level 3</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-audio" src="/storybooks-himalaya/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/bo/0324/bo-0324_city.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -96,7 +99,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	The small bus stop in my village was busy with people and overloaded buses. On the ground were even more things to load. Touts were shouting the names where their buses were going.
@@ -125,10 +128,10 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	"City! City! Going west!" I heard a tout shouting. That was the bus I needed to catch.
+	“City! City! Going west!” I heard a tout shouting. That was the bus I needed to catch.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -154,7 +157,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	The city bus was almost full, but more people were still pushing to get on. Some packed their luggage under the bus. Others put theirs on the racks inside.
@@ -183,7 +186,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	New passengers clutched their tickets as they looked for somewhere to sit in the crowded bus. Women with young children made them comfortable for the long journey.
@@ -212,7 +215,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	I squeezed in next to a window. The person sitting next to me was holding tightly to a green plastic bag. He wore old sandals, a worn out coat, and he looked nervous.
@@ -241,7 +244,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	I looked outside the bus and realised that I was leaving my village, the place where I had grown up. I was going to the big city.
@@ -270,7 +273,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	The loading was completed and all passengers were seated. Hawkers still pushed their way into the bus to sell their goods to the passengers. Everyone was shouting the names of what was available for sale. The words sounded funny to me.
@@ -299,7 +302,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	A few passengers bought drinks, others bought small snacks and began to chew. Those who did not have any money, like me, just watched.
@@ -328,7 +331,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	These activities were interrupted by the hooting of the bus, a sign that we were ready to leave. The tout yelled at the hawkers to get out.
@@ -357,7 +360,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	Hawkers pushed each other to make their way out of the bus. Some gave back change to the travellers. Others made last minute attempts to sell more items.
@@ -386,7 +389,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	As the bus left the bus stop, I stared out of the window. I wondered if I would ever go back to my village again.
@@ -415,7 +418,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	As the journey progressed, the inside of the bus got very hot. I closed my eyes hoping to sleep.
@@ -444,7 +447,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	But my mind drifted back home. Will my mother be safe? Will my rabbits fetch any money? Will my brother remember to water my tree seedlings?
@@ -473,7 +476,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	On the way, I memorised the name of the place where my uncle lived in the big city. I was still mumbling it when I fell asleep.
@@ -502,7 +505,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	Nine hours later, I woke up with loud banging and calling for passengers going back to my village. I grabbed my small bag and jumped out of the bus.
@@ -531,10 +534,10 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	The return bus was filling up quickly. Soon it would make its way back east. The most important thing for me now, was to start looking for my uncle's house.
+	The return bus was filling up quickly. Soon it would make its way back east. The most important thing for me now, was to start looking for my uncle’s house.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -560,9 +563,9 @@
 		<h5>Read by: པད་མ་ཆོས་སྒྲོན། Pema Choedon</h5>
 		<h5>Language: <a href="/storybooks-himalaya/stories/bo">Tibetan</a></h5>
 		<h5><a href="/storybooks-himalaya/stories/bo/level3">Level 3</a></h5>
-		<h5>Source: <a href="https://africanstorybook.org/stories/15029" target="_blank">The day I left home for the city</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
+		<h5>Source: <a href="https://africanstorybook.org/reader.php?id=15029" target="_blank">The day I left home for the city</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
@@ -581,6 +584,8 @@
 	<a class="btn btn-lg" href="/storybooks-himalaya/stories/bo" class="button">Back to stories list</a> <a class="btn btn-lg disabled" target="_blank" href="">Download PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 

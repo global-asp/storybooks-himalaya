@@ -16,13 +16,16 @@
 	<meta name="description" content="Storybooks Himalaya is designed specifically for teachers, parents, and community members and makes 40 stories from the African Storybook available with text and audio in Nepali, Tibetan, English, and a variety of other regional Himalayan languages.
 ">
 	<link rel="stylesheet" href="/storybooks-himalaya/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-himalaya/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-himalaya/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-himalaya/stories/hi/0066/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Himalaya" href="/storybooks-himalaya">
 	<script src="/storybooks-himalaya/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -60,7 +63,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-himalaya/stories/hi" class="button">Back to stories list</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-himalaya/stories/hi">Back to stories list</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0066/01.jpg"></div>
@@ -68,21 +71,20 @@
 		<h1><span class="def">नोज़िबेले और उसके तीन बाल</span>
 			<span class="l1">Nozibele and the three hairs</span>
 			<span class="l2"></span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/hi/0066/mp3/01.mp3"></audio>
-				<button onclick="switchlang('hi,ne','ne,en,hi')" class="btn btn-lg lang-primary" title="Switch between Hindi and Nepali">ne</button>
-				<button onclick="switchlang('hi,en','ne,en,hi')" class="btn btn-lg lang-secondary" title="Switch between Hindi and English">en</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-himalaya/css/pencil.svg" alt="Written by" width="38px"></span> Tessa Welch</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon" src="/storybooks-himalaya/css/art.svg" alt="Illustrated by" width="38px"></span> Wiehan de Jager</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon" src="/storybooks-himalaya/css/global.svg" alt="Translated by" width="38px"></span> Nandani</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-himalaya/css/language.svg" alt="Language" width="38px"></span> <a href="/storybooks-himalaya/stories/hi">Hindi</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-himalaya/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-himalaya/stories/hi/level3">Level 3</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-himalaya/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/hi/0066/hi-0066_nozibele.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg disabled" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
+			<button onclick="switchlang('hi,ne','ne,en,hi')" class="btn btn-lg lang-primary" title="Switch between Hindi and Nepali">ne</button>
+			<button onclick="switchlang('hi,en','ne,en,hi')" class="btn btn-lg lang-secondary" title="Switch between Hindi and English">en</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/pencil.svg" alt="Written by"></span> Tessa Welch</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/art.svg" alt="Illustrated by"></span> Wiehan de Jager</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/global.svg" alt="Translated by"></span> Nandani</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/language.svg" alt="Language"></span> <a href="/storybooks-himalaya/stories/hi">Hindi</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/level.svg" alt="Level"></span> <a href="/storybooks-himalaya/stories/hi/level3">Level 3</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/speaker.svg" alt="Narrate full story"></span> <span class="cover_msg">The audio for this story is currently not available.</span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -95,7 +97,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	A long time ago, three girls went
@@ -105,8 +107,7 @@ out to collect wood.
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text03" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio02" onended="resetbutton('02')" src="https://globalstorybooks.net/media/audio/hi/0066/mp3/02.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton02" onclick="playpause('02')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('hi,ne','ne,en,hi')" class="btn btn-lg lang-primary" title="Switch between Hindi and Nepali">ne</button>
@@ -125,7 +126,7 @@ out to collect wood.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	It was a hot day so they went down
@@ -137,8 +138,7 @@ swam in the water.
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text04" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio03" onended="resetbutton('03')" src="https://globalstorybooks.net/media/audio/hi/0066/mp3/03.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton03" onclick="playpause('03')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('hi,ne','ne,en,hi')" class="btn btn-lg lang-primary" title="Switch between Hindi and Nepali">ne</button>
@@ -157,7 +157,7 @@ swam in the water.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	Suddenly, they realised that it was
@@ -168,8 +168,7 @@ They hurried back to the village.
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text05" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio04" onended="resetbutton('04')" src="https://globalstorybooks.net/media/audio/hi/0066/mp3/04.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton04" onclick="playpause('04')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('hi,ne','ne,en,hi')" class="btn btn-lg lang-primary" title="Switch between Hindi and Nepali">ne</button>
@@ -188,13 +187,13 @@ They hurried back to the village.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	When they were nearly home,
 Nozibele put her hand to her neck.
 She had forgotten her necklace!
-"Please come back with me!" she
+“Please come back with me!” she
 begged her friends.
 But her friends said it was too late.
 	</h3></div>
@@ -202,8 +201,7 @@ But her friends said it was too late.
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text06" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio05" onended="resetbutton('05')" src="https://globalstorybooks.net/media/audio/hi/0066/mp3/05.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton05" onclick="playpause('05')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('hi,ne','ne,en,hi')" class="btn btn-lg lang-primary" title="Switch between Hindi and Nepali">ne</button>
@@ -222,7 +220,7 @@ But her friends said it was too late.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	So Nozibele went back to the river
@@ -235,8 +233,7 @@ But she got lost in the dark.
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text07" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio06" onended="resetbutton('06')" src="https://globalstorybooks.net/media/audio/hi/0066/mp3/06.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton06" onclick="playpause('06')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('hi,ne','ne,en,hi')" class="btn btn-lg lang-primary" title="Switch between Hindi and Nepali">ne</button>
@@ -255,7 +252,7 @@ But she got lost in the dark.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	In the distance she saw light
@@ -267,8 +264,7 @@ at the door.
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text08" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio07" onended="resetbutton('07')" src="https://globalstorybooks.net/media/audio/hi/0066/mp3/07.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton07" onclick="playpause('07')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('hi,ne','ne,en,hi')" class="btn btn-lg lang-primary" title="Switch between Hindi and Nepali">ne</button>
@@ -287,14 +283,14 @@ at the door.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	To her surprise, a dog opened the
-door and said, "What do you want?"
-"I'm lost and I need a place to
-sleep," said Nozibele.
-"Come in, or I'll bite you!" said the
+door and said, “What do you want?”
+“I’m lost and I need a place to
+sleep,” said Nozibele.
+“Come in, or I’ll bite you!” said the
 dog.
 So Nozibele went in.
 	</h3></div>
@@ -302,8 +298,7 @@ So Nozibele went in.
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text09" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio08" onended="resetbutton('08')" src="https://globalstorybooks.net/media/audio/hi/0066/mp3/08.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton08" onclick="playpause('08')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('hi,ne','ne,en,hi')" class="btn btn-lg lang-primary" title="Switch between Hindi and Nepali">ne</button>
@@ -322,13 +317,13 @@ So Nozibele went in.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Then the dog said, "Cook for me!"
-"But I've never cooked for a dog
-before," she answered.
-"Cook, or I'll bite you!" said the dog.
+	Then the dog said, “Cook for me!”
+“But I’ve never cooked for a dog
+before,” she answered.
+“Cook, or I’ll bite you!” said the dog.
 So Nozibele cooked some food for
 the dog.
 	</h3></div>
@@ -336,8 +331,7 @@ the dog.
 	<div class="btn-group switcher-group">
 		<a href="#text08" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text10" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio09" onended="resetbutton('09')" src="https://globalstorybooks.net/media/audio/hi/0066/mp3/09.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton09" onclick="playpause('09')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('hi,ne','ne,en,hi')" class="btn btn-lg lang-primary" title="Switch between Hindi and Nepali">ne</button>
@@ -356,14 +350,14 @@ the dog.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Then the dog said, "Make the bed
-for me!"
-Nozibele answered, "I've never
-made a bed for a dog."
-"Make the bed, or I'll bite you!" the
+	Then the dog said, “Make the bed
+for me!”
+Nozibele answered, “I’ve never
+made a bed for a dog.”
+“Make the bed, or I’ll bite you!” the
 dog said.
 So Nozibele made the bed.
 	</h3></div>
@@ -371,8 +365,7 @@ So Nozibele made the bed.
 	<div class="btn-group switcher-group">
 		<a href="#text09" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text11" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio10" onended="resetbutton('10')" src="https://globalstorybooks.net/media/audio/hi/0066/mp3/10.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton10" onclick="playpause('10')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('hi,ne','ne,en,hi')" class="btn btn-lg lang-primary" title="Switch between Hindi and Nepali">ne</button>
@@ -391,23 +384,22 @@ So Nozibele made the bed.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	Every day she had to cook and
 sweep and wash for the dog.
 Then one day the dog said,
-"Nozibele, today I have to visit
+“Nozibele, today I have to visit
 some friends. Sweep the house,
 cook the food and wash my things
-before I come back."
+before I come back.”
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text10" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text12" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio11" onended="resetbutton('11')" src="https://globalstorybooks.net/media/audio/hi/0066/mp3/11.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton11" onclick="playpause('11')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('hi,ne','ne,en,hi')" class="btn btn-lg lang-primary" title="Switch between Hindi and Nepali">ne</button>
@@ -426,7 +418,7 @@ before I come back."
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	As soon as the dog had gone,
@@ -442,8 +434,7 @@ could.
 	<div class="btn-group switcher-group">
 		<a href="#text11" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text13" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio12" onended="resetbutton('12')" src="https://globalstorybooks.net/media/audio/hi/0066/mp3/12.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton12" onclick="playpause('12')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton12" onclick="playpause('12')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('hi,ne','ne,en,hi')" class="btn btn-lg lang-primary" title="Switch between Hindi and Nepali">ne</button>
@@ -462,26 +453,25 @@ could.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	When the dog came back, he looked
 for Nozibele.
-"Nozibele, where are you?" he
+“Nozibele, where are you?” he
 shouted.
-"I'm here, under the bed," said the
+“I’m here, under the bed,” said the
 first hair.
-"I'm here, behind the door," said the
+“I’m here, behind the door,” said the
 second hair.
-"I'm here, in the kraal," said the
+“I’m here, in the kraal,” said the
 third hair.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text12" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text14" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio13" onended="resetbutton('13')" src="https://globalstorybooks.net/media/audio/hi/0066/mp3/13.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton13" onclick="playpause('13')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton13" onclick="playpause('13')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('hi,ne','ne,en,hi')" class="btn btn-lg lang-primary" title="Switch between Hindi and Nepali">ne</button>
@@ -500,14 +490,14 @@ third hair.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
 	Then the dog knew that Nozibele
 had tricked him.
 So he ran and ran all the way to the
 village.
-But Nozibele's brothers were
+But Nozibele’s brothers were
 waiting there with big sticks.
 The dog turned and ran away and
 has never been seen since.
@@ -516,8 +506,7 @@ has never been seen since.
 	<div class="btn-group switcher-group">
 		<a href="#text13" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#colophon" class="btn btn-lg" title="Story credits"><i class="icon-arrow-down"></i></a>
-		<audio id="audio14" onended="resetbutton('14')" src="https://globalstorybooks.net/media/audio/hi/0066/mp3/14.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton14" onclick="playpause('14')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton14" onclick="playpause('14')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('hi,ne','ne,en,hi')" class="btn btn-lg lang-primary" title="Switch between Hindi and Nepali">ne</button>
@@ -535,9 +524,9 @@ has never been seen since.
 		<h5>Translated by: Nandani</h5>
 		<h5>Language: <a href="/storybooks-himalaya/stories/hi">Hindi</a></h5>
 		<h5><a href="/storybooks-himalaya/stories/hi/level3">Level 3</a></h5>
-		<h5>Source: <a href="https://africanstorybook.org/stories/1880" target="_blank">Nozibele and the three hairs</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
+		<h5>Source: <a href="https://africanstorybook.org/reader.php?id=1880" target="_blank">Nozibele and the three hairs</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 International License</a>.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 International License</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
@@ -556,6 +545,8 @@ has never been seen since.
 	<a class="btn btn-lg" href="/storybooks-himalaya/stories/hi" class="button">Back to stories list</a> <a class="btn btn-lg disabled" target="_blank" href="">Download PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 

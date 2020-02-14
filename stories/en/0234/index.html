@@ -16,13 +16,16 @@
 	<meta name="description" content="Storybooks Himalaya is designed specifically for teachers, parents, and community members and makes 40 stories from the African Storybook available with text and audio in Nepali, Tibetan, English, and a variety of other regional Himalayan languages.
 ">
 	<link rel="stylesheet" href="/storybooks-himalaya/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-himalaya/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-himalaya/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-himalaya/stories/en/0234/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Himalaya" href="/storybooks-himalaya">
 	<script src="/storybooks-himalaya/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -60,7 +63,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-himalaya/stories/en" class="button">Back to stories list</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-himalaya/stories/en">Back to stories list</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0234/01.jpg"></div>
@@ -68,21 +71,21 @@
 		<h1><span class="def">Andiswa Soccer Star</span>
 			<span class="l1">Andiswa Soccer Star</span>
 			<span class="l2"></span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/en/0234/mp3/01.mp3"></audio>
-				<button onclick="switchlang('en,ne','ne,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Nepali">ne</button>
-				<button onclick="switchlang('en,en','ne,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-himalaya/css/pencil.svg" alt="Written by" width="38px"></span> Eden Daniels</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon" src="/storybooks-himalaya/css/art.svg" alt="Illustrated by" width="38px"></span> Eden Daniels</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon" src="/storybooks-himalaya/css/megaphone.svg" alt="Read by" width="38px"></span> Darshan Soni</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-himalaya/css/language.svg" alt="Language" width="38px"></span> <a href="/storybooks-himalaya/stories/en">English</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-himalaya/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-himalaya/stories/en/level2">Level 2</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-himalaya/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/en/0234/en-0234_andiswa.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/en/0234/mp3/01.mp3"></audio>
+			<button onclick="switchlang('en,ne','ne,en,en')" class="btn btn-lg lang-primary" title="Switch between English and Nepali">ne</button>
+			<button onclick="switchlang('en,en','ne,en,en')" class="btn btn-lg lang-secondary" title="Switch between English and English">en</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/pencil.svg" alt="Written by"></span> Eden Daniels</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/art.svg" alt="Illustrated by"></span> Eden Daniels</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/megaphone.svg" alt="Read by"></span> Darshan Soni</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/language.svg" alt="Language"></span> <a href="/storybooks-himalaya/stories/en">English</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/level.svg" alt="Level"></span> <a href="/storybooks-himalaya/stories/en/level2">Level 2</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-audio" src="/storybooks-himalaya/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/en/0234/en-0234_andiswa.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -95,7 +98,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
 	Andiswa watched the boys play soccer. She wished that she could join them. She asked the coach if she can practise with them.
@@ -124,10 +127,10 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	The coach put his hands on his hips. "At this school, only boys are allowed to play soccer," he said.
+	The coach put his hands on his hips. “At this school, only boys are allowed to play soccer,” he said.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -153,7 +156,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
 	The boys told her to go play netball. They said that netball is for girls and soccer is for boys. Andiswa was upset.
@@ -182,7 +185,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
 	The next day, the school had a big soccer match. The coach was worried because his best player was sick and could not play.
@@ -211,7 +214,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
 	Andiswa ran to the coach and begged him to let her to play. The coach was not sure what to do. Then he decided that Andiswa could join the team.
@@ -240,7 +243,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
 	The game was tough. Nobody had scored a goal by half time.
@@ -269,7 +272,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
 	During the second half of the match one of the boys passed the ball to Andiswa. She moved very fast towards the goal post. She kicked the ball hard and scored a goal.
@@ -298,7 +301,7 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-
+	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
 	The crowd went wild with joy. Since that day, girls were also allowed to play soccer at the school.
@@ -326,9 +329,9 @@
 		<h5>Read by: Darshan Soni</h5>
 		<h5>Language: <a href="/storybooks-himalaya/stories/en">English</a></h5>
 		<h5><a href="/storybooks-himalaya/stories/en/level2">Level 2</a></h5>
-		<h5>Source: <a href="https://africanstorybook.org/stories/5283" target="_blank">Andiswa Soccer Star</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
+		<h5>Source: <a href="https://africanstorybook.org/reader.php?id=5283" target="_blank">Andiswa Soccer Star</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-NonCommercial 3.0 International License</a>.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc/3.0/" target="_blank">Creative Commons Attribution-NonCommercial 3.0 International License</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
@@ -350,6 +353,8 @@
 	<a class="btn btn-lg" href="/storybooks-himalaya/stories/en" class="button">Back to stories list</a> <a class="btn btn-lg disabled" target="_blank" href="">Download PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 
