@@ -4,13 +4,13 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-himalaya/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-himalaya/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-himalaya/favicon-16x16.png">
-	<link rel="manifest" href="/storybooks-himalaya/site.webmanifest">
-	<link rel="mask-icon" href="/storybooks-himalaya/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href=/storybooks-himalaya/favicon.ico?v=4">
-	<meta name="msapplication-TileColor" content="#da532c">
+	<link rel="apple-touch-icon" sizes="180x180" href="/storybooks-himalaya/apple-touch-icon.png?v=4">
+	<link rel="icon" type="image/png" sizes="32x32" href="/storybooks-himalaya/favicon-32x32.png?v=4">
+	<link rel="icon" type="image/png" sizes="16x16" href="/storybooks-himalaya/favicon-16x16.png?v=4">
+	<link rel="manifest" href="/storybooks-himalaya/site.webmanifest?v=4">
+	<link rel="mask-icon" href="/storybooks-himalaya/safari-pinned-tab.svg?v=4" color="#5bbad5">
+	<link rel="shortcut icon" href="/storybooks-himalaya/favicon.ico?v=4">
+	<meta name="msapplication-TileColor" content="#00aba9">
 	<meta name="theme-color" content="#ffffff">
 	<title>离家进城的那一天 - Storybooks Himalaya</title>
 	<meta name="description" content="Storybooks Himalaya is designed specifically for teachers, parents, and community members and makes 40 stories from the African Storybook available with text and audio in Nepali, Tibetan, English, and a variety of other regional Himalayan languages.
@@ -20,12 +20,10 @@
 	<link rel="stylesheet" href="/storybooks-himalaya/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-himalaya/stories/zh/0324/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Himalaya" href="/storybooks-himalaya">
-	<script src="/storybooks-himalaya/js/sbc.js"></script>
+	<script src="/storybooks-himalaya/js/sbc.min.js"></script>
 </head>
 
-
   <body>
-
 
     <div class="container">
 
@@ -49,16 +47,16 @@
 	</section>
 </header>
 
-        <div class="float-right"><a class="btn btn-lg disabled" target="_blank" href="">Download PDF</a></div> 
+        <div class="float-right"><a class="btn btn-lg" href="https://globalstorybooks.net/media/sbhim/pdf/zh/zh-0324_city.pdf" target="_blank">Download PDF</a></div>
 
 <div class="float-right">
 	<select class="btn btn-lg" onchange="window.location=this.value" accesskey="l">
 		<option selected="" disabled="">Change language</option>
 		<option value="/storybooks-himalaya/stories/ne/0324">Nepali</option>
+		<option value="/storybooks-himalaya/stories/bo/0324">Tibetan</option>
 		<option value="/storybooks-himalaya/stories/en/0324">English</option>
 		<option value="/storybooks-himalaya/stories/hi/0324">Hindi</option>
 		<option value="/storybooks-himalaya/stories/zh/0324">Mandarin</option>
-		<option value="/storybooks-himalaya/stories/bo/0324">Tibetan</option>
 		<option value="/storybooks-himalaya/stories/ur/0324">Urdu</option>
 	</select>
 </div>
@@ -69,15 +67,17 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0324/01.jpg"></div>
 	<div class=" column col-7 col-lg-12 col-md-12 col-sm-12">
 		<h1><span class="def">离家进城的那一天</span>
-			<span class="l1">The day I left home for the city</span>
-			<span class="l2"></span>
+			<span class="l1"></span>
+			<span class="l2">ང་གྲོང་གསེབ་ནས་གྲོང་ཁྱེར་ལ་ཕྱིན་པའི་ཉིན་མོ།</span>
+			<span class="l3">The day I left home for the city</span>
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
 			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/01.mp3"></audio>
-			<button onclick="switchlang('zh,ne','ne,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
-			<button onclick="switchlang('zh,en','ne,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and English">en</button>
+			<button onclick="switchlang('zh,ne','ne,bo,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
+			<button onclick="switchlang('zh,bo','ne,bo,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and Tibetan">bo</button>
+			<button onclick="switchlang('zh,en','ne,bo,en,zh')" class="btn btn-lg lang-tertiary" title="Switch between Chinese (Mandarin) and English">en</button>
 		</div>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/pencil.svg" alt="Written by"></span> Lesley Koyi, Ursula Nafula</h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/art.svg" alt="Illustrated by"></span> Brian Wambi</h3>
@@ -86,15 +86,16 @@
 		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/language.svg" alt="Language"></span> <a href="/storybooks-himalaya/stories/zh">Chinese (Mandarin)</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/level.svg" alt="Level"></span> <a href="/storybooks-himalaya/stories/zh/level3">Level 3</a></h3>
 		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-audio" src="/storybooks-himalaya/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/zh/0324/zh-0324_city.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Reading speed"><img class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/speedometer.svg" alt="Reading speed" style="cursor:pointer" onclick="normalspeed()"></span> <span id="slider_tooltip" class="tooltip" data-tooltip="Reading speed: 1×"><input type="range" min="0.5" max="1.5" value="1" step="0.05" id="audio_slider" class="slider" oninput="adjustslider()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="/storybooks-himalaya/css/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
+
 <hr>
 
-<div id="text02" class="columns">
+        <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0324/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-
 	在我生活的村庄里，有一个小小的大巴车站。大巴车站虽然小，但是人来车往，非常热闹，地上常常堆满了装载的货物，售票员叫喊着大巴车开往的方向。
 	</h3></div>
 
@@ -102,18 +103,22 @@
 	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
+	ང་ཚོའི་གྲོང་གསེབ་ཀྱི་འགྲུལ་འཁོར་འབབ་ཚུགས་ན་མི་ཚོགས་དང་རྐུབ་སྟེགས་ཁེངས་ཚར་པའི་རླངས་འཁོར་གྱི་འཚང་ཁ་ཆེན་པོ་འདུག་ལ། ད་དུང་རླངས་འཁོར་ནང་ལ་འབུད་མཁན་གྱི་མི་དེ་ལས་མང་བ་འདུག ཁ་ལོ་བ་རྣམས་ཀྱིས་སོ་སོའི་འགྲུལ་འཁོར་འགྲོ་སའི་ས་ཆའི་མིང་གང་ཡིན་སྐད་རྒྱབ་ནས་བཤད་ཀྱིན་འདུག
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l3"><h3>
 	The small bus stop in my village was busy with people and overloaded buses. On the ground were even more things to load. Touts were shouting the names where their buses were going.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text03" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio02" onended="resetbutton('02')" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/02.mp3"></audio>
+		<audio id="audio02" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/02.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,ne','ne,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
-		<button onclick="switchlang('zh,en','ne,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and English">en</button>
+		<button onclick="switchlang('zh,ne','ne,bo,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
+		<button onclick="switchlang('zh,bo','ne,bo,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and Tibetan">bo</button>
+		<button onclick="switchlang('zh,en','ne,bo,en,zh')" class="btn btn-lg lang-tertiary" title="Switch between Chinese (Mandarin) and English">en</button>
 	</div>
 </div>
 
@@ -123,7 +128,6 @@
 <div id="text03" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0324/03.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-
 	我听到售票员喊“进城啦！进城啦！往西去！”这就是我要乘坐的大巴车。
 	</h3></div>
 
@@ -131,18 +135,22 @@
 	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
+	“གྲོང་ཁྱེར། གྲོང་ཁྱེར། ནུབ་ཕྱོགས་སུ་འགྲོ་མཁན་ཡིན།” ཁ་ལོ་བ་གཅིག་གིས་དེ་ལྟར་སྐད་རྒྱག་གིན་ཡོད་པ་ངས་ཐོས་བྱུང་ལ། ངས་རྗེས་ཟིན་དགོས་པའི་འགྲུལ་འཁོར་ནི་དེ་རང་རེད།
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l3"><h3>
 	“City! City! Going west!” I heard a tout shouting. That was the bus I needed to catch.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text04" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio03" onended="resetbutton('03')" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/03.mp3"></audio>
+		<audio id="audio03" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/03.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,ne','ne,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
-		<button onclick="switchlang('zh,en','ne,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and English">en</button>
+		<button onclick="switchlang('zh,ne','ne,bo,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
+		<button onclick="switchlang('zh,bo','ne,bo,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and Tibetan">bo</button>
+		<button onclick="switchlang('zh,en','ne,bo,en,zh')" class="btn btn-lg lang-tertiary" title="Switch between Chinese (Mandarin) and English">en</button>
 	</div>
 </div>
 
@@ -152,7 +160,6 @@
 <div id="text04" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0324/04.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-
 	进城的大巴车几乎坐满了，但是人们还是不停地往里面挤。一些人把行李放在车顶，还有一些人把行李放在车厢里的架子上。
 	</h3></div>
 
@@ -160,18 +167,22 @@
 	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
+	འགྲུལ་འཁོར་དེའི་ནང་ཕལ་ཆེར་འགྲུལ་བས་ཁེངས་བསྡད་འདུག་ནའང་། ས་ན་ད་དུང་ཡར་འཚང་ཁ་བྱེད་མཁན་མང་པོ་འདུག འགའ་རེས་སོ་སོའི་ཁུར་པོ་རླངས་འཁོར་གྱི་འོག་གི་སྒམ་ནང་ལ་འཇུག་གིན་འདུག་ལ། ཁ་ཤས་ཀྱིས་རྒྱབ་ཁུག་རྣམས་འཁྲིས་ཀྱི་བང་ཁྲིའི་སྟེང་ལ་འཇོག་གིན་འདུག
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l3"><h3>
 	The city bus was almost full, but more people were still pushing to get on. Some packed their luggage under the bus. Others put theirs on the racks inside.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text05" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio04" onended="resetbutton('04')" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/04.mp3"></audio>
+		<audio id="audio04" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/04.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,ne','ne,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
-		<button onclick="switchlang('zh,en','ne,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and English">en</button>
+		<button onclick="switchlang('zh,ne','ne,bo,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
+		<button onclick="switchlang('zh,bo','ne,bo,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and Tibetan">bo</button>
+		<button onclick="switchlang('zh,en','ne,bo,en,zh')" class="btn btn-lg lang-tertiary" title="Switch between Chinese (Mandarin) and English">en</button>
 	</div>
 </div>
 
@@ -181,7 +192,6 @@
 <div id="text05" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0324/05.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-
 	刚上车的乘客们紧紧地抓着他们的车票，在拥挤的车厢里寻找座位，带着小孩的妇女们都坐得舒舒服服的。
 	</h3></div>
 
@@ -189,18 +199,22 @@
 	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
+	ཁ་ཤས་ཀྱིས་འཛིནབྱང་བཟུང་སྟེ་རླངས་འཁོར་ནང་གི་རྐུབ་སྟེགས་འཚོལ་གྱིན་འདུག་ལ། བྱིས་པ་བཟུང་བའི་བུད་མེད་རྣམས་ཀྱིས་འགྲུལ་བཞུད་རིང་པོ་དེའི་བར་དུ་རང་རང་གི་འདུག་ས་བདེ་བོ་བཟོ་བཞིན་འདུག
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l3"><h3>
 	New passengers clutched their tickets as they looked for somewhere to sit in the crowded bus. Women with young children made them comfortable for the long journey.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text06" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio05" onended="resetbutton('05')" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/05.mp3"></audio>
+		<audio id="audio05" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/05.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,ne','ne,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
-		<button onclick="switchlang('zh,en','ne,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and English">en</button>
+		<button onclick="switchlang('zh,ne','ne,bo,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
+		<button onclick="switchlang('zh,bo','ne,bo,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and Tibetan">bo</button>
+		<button onclick="switchlang('zh,en','ne,bo,en,zh')" class="btn btn-lg lang-tertiary" title="Switch between Chinese (Mandarin) and English">en</button>
 	</div>
 </div>
 
@@ -210,7 +224,6 @@
 <div id="text06" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0324/06.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-
 	我挤到了窗边的一个座位里。旁边的乘客紧紧地抓着一个绿色的塑料包裹。他穿着破旧的凉鞋和外套，看起来很紧张。
 	</h3></div>
 
@@ -218,18 +231,22 @@
 	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
+	ང་རང་སྒེའུ་ཁུང་འཁྲིས་ཀྱི་རྐུབ་སྟེགས་ཤིག་གི་སྟེང་བཙུར་ནས་བསྡད་པ་ཡིན་ལ། ངའི་འཁྲིས་ན་སྡོད་པའི་མི་དེས་ལག་ལ་འགྱིག་གི་ཁུག་མ་ལྗང་ཁུ་ཞིག་ཉར་འདུག་ཅིང་། བསིལ་ལྷམ་རྙིང་བ་ཞིག་དང་ནུབ་ལྭ་རྙིང་ཧྲུལ་ཞིག་གོན་འདུག ཁོ་རང་བལྟས་ཚོད་ཀྱིས་བདེ་བོ་མེད་པ་ལྟར་སྣང་།
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l3"><h3>
 	I squeezed in next to a window. The person sitting next to me was holding tightly to a green plastic bag. He wore old sandals, a worn out coat, and he looked nervous.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text07" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio06" onended="resetbutton('06')" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/06.mp3"></audio>
+		<audio id="audio06" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/06.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,ne','ne,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
-		<button onclick="switchlang('zh,en','ne,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and English">en</button>
+		<button onclick="switchlang('zh,ne','ne,bo,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
+		<button onclick="switchlang('zh,bo','ne,bo,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and Tibetan">bo</button>
+		<button onclick="switchlang('zh,en','ne,bo,en,zh')" class="btn btn-lg lang-tertiary" title="Switch between Chinese (Mandarin) and English">en</button>
 	</div>
 </div>
 
@@ -239,7 +256,6 @@
 <div id="text07" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0324/07.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-
 	我朝窗外看去，这才意识到，我正在离开我长大的村庄，我要进城了！
 	</h3></div>
 
@@ -247,18 +263,22 @@
 	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
+	ངས་སྒེའུ་ཁུང་ལས་ཕྱི་རོལ་ལ་བལྟས་པ་ཡིན་ལ། རང་ཉིད་ནར་སོན་སའི་ཕ་ཡུལ་གྲོང་གསེབ་དེ་བཞག་ནས་འགྲོ་བཞིན་པ་སེམས་ན་གསལ་བོར་འདུག ང་རང་གྲོང་ཁྱེར་ཆེན་པོ་ཞིག་ལ་འགྲོ་གིན་ཡོད།
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l3"><h3>
 	I looked outside the bus and realised that I was leaving my village, the place where I had grown up. I was going to the big city.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text08" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio07" onended="resetbutton('07')" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/07.mp3"></audio>
+		<audio id="audio07" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/07.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,ne','ne,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
-		<button onclick="switchlang('zh,en','ne,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and English">en</button>
+		<button onclick="switchlang('zh,ne','ne,bo,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
+		<button onclick="switchlang('zh,bo','ne,bo,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and Tibetan">bo</button>
+		<button onclick="switchlang('zh,en','ne,bo,en,zh')" class="btn btn-lg lang-tertiary" title="Switch between Chinese (Mandarin) and English">en</button>
 	</div>
 </div>
 
@@ -268,7 +288,6 @@
 <div id="text08" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0324/08.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-
 	货物都装载完了，乘客们都坐好了。小商贩们还在努力地挤到车厢里，向乘客们大声叫卖着货物。他们的话听起来怪好笑的。
 	</h3></div>
 
@@ -276,18 +295,22 @@
 	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
+	ཅ་ལག་ཚང་མ་རྩིག་ཚར་འདུག་ལ། མི་ཚང་མའང་སོ་སོའི་རྐུབ་སྟེགས་སྟེང་ལ་བསྡད་འདུག སྐོར་འཚོང་བ་དག་གིས་སོ་སོའི་ཅ་དངོས་རྣམས་འགྲུལ་བ་རྣམས་ལ་བཙོང་ཆེད་དུ་མུ་མཐུད་ནས་རླངས་འཁོར་ནང་ལ་འཚང་ཁ་རྒྱག་བྱེད་ཀྱིན་འདུག ཁོང་ཚོས་སོ་སོར་ཅ་ལག་ག་རེ་འཚོང་རྒྱུ་ཡོད་པའི་སྐོར་སྐད་རྒྱབ་ནས་བཤད་ཀྱིན་འདུག ངས་འདི་དག་ཁྱད་མཚར་པོ་ཞིག་ཏུ་མཐོང་།
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l3"><h3>
 	The loading was completed and all passengers were seated. Hawkers still pushed their way into the bus to sell their goods to the passengers. Everyone was shouting the names of what was available for sale. The words sounded funny to me.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text09" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio08" onended="resetbutton('08')" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/08.mp3"></audio>
+		<audio id="audio08" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/08.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,ne','ne,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
-		<button onclick="switchlang('zh,en','ne,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and English">en</button>
+		<button onclick="switchlang('zh,ne','ne,bo,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
+		<button onclick="switchlang('zh,bo','ne,bo,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and Tibetan">bo</button>
+		<button onclick="switchlang('zh,en','ne,bo,en,zh')" class="btn btn-lg lang-tertiary" title="Switch between Chinese (Mandarin) and English">en</button>
 	</div>
 </div>
 
@@ -297,7 +320,6 @@
 <div id="text09" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0324/09.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-
 	有一些乘客买了饮料，还有一些乘客买了零食，正准备拆开来吃。像我一样没有钱的人只能看着。
 	</h3></div>
 
@@ -305,18 +327,22 @@
 	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
+	འགྲུལ་བ་ཁ་ཤས་ཀྱིས་སྐོམ་ཆུ་ཉོས་པ་དང་། འགའ་རེ་ཡིས་ཞོར་ཟས་ཉོས་ནས་ཁ་ནང་ལ་མུར་མགོ་བཙུགས། ང་རང་ལྟ་བུ་ལག་ན་དངུལ་ཅི་ཡང་མེད་མཁན་རྣམས་ཀྱིས་ལྟད་མོར་བལྟས་ནས་སྡོད་དགོས་པ་རེད།
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l3"><h3>
 	A few passengers bought drinks, others bought small snacks and began to chew. Those who did not have any money, like me, just watched.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text08" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text10" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio09" onended="resetbutton('09')" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/09.mp3"></audio>
+		<audio id="audio09" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/09.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,ne','ne,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
-		<button onclick="switchlang('zh,en','ne,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and English">en</button>
+		<button onclick="switchlang('zh,ne','ne,bo,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
+		<button onclick="switchlang('zh,bo','ne,bo,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and Tibetan">bo</button>
+		<button onclick="switchlang('zh,en','ne,bo,en,zh')" class="btn btn-lg lang-tertiary" title="Switch between Chinese (Mandarin) and English">en</button>
 	</div>
 </div>
 
@@ -326,7 +352,6 @@
 <div id="text10" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0324/10.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-
 	大巴车滴滴叫了两声，要开了，小商贩的活动戛然而止。售票员喊着，赶他们下车。
 	</h3></div>
 
@@ -334,18 +359,22 @@
 	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
+	རླངས་འཁོར་གྱི་དུང་བརྡ་དེས་བྱེད་སྒོ་འདི་དག་གི་མཚམས་བཅད་ཅིང་། དེ་ནི་ང་ཚོ་ལམ་ལ་ཆས་དགོས་པའི་བརྡ་རེད། ཁ་ལོ་བས་སྐོར་ཚོང་བ་རྣམས་རླངས་འཁོར་ནང་ནས་ཕྱིར་འབུད་དགོས་པར་བཤད།
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l3"><h3>
 	These activities were interrupted by the hooting of the bus, a sign that we were ready to leave. The tout yelled at the hawkers to get out.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text09" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text11" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio10" onended="resetbutton('10')" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/10.mp3"></audio>
+		<audio id="audio10" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/10.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton10" onclick="playpause('10')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,ne','ne,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
-		<button onclick="switchlang('zh,en','ne,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and English">en</button>
+		<button onclick="switchlang('zh,ne','ne,bo,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
+		<button onclick="switchlang('zh,bo','ne,bo,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and Tibetan">bo</button>
+		<button onclick="switchlang('zh,en','ne,bo,en,zh')" class="btn btn-lg lang-tertiary" title="Switch between Chinese (Mandarin) and English">en</button>
 	</div>
 </div>
 
@@ -355,7 +384,6 @@
 <div id="text11" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0324/11.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-
 	小商贩们推推搡搡下了车。一些人还在忙着找零钱，还有一些人赖着想最后再做点生意。
 	</h3></div>
 
@@ -363,18 +391,22 @@
 	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
+	སྐོར་ཚོང་བ་དག་གིས་རླངས་འཁོར་ལས་ཕྱིར་འབུད་ཆེད་དུ་འཚང་རྒྱག་བྱེད་ཀྱིན་འདུག་ལ། ཁ་ཤས་ཀྱིས་དངུལ་གྱི་སིལ་མ་སློག་པ་དང་། རེ་ཟུང་གིས་སོ་སོའི་ཚོང་ཟོག་ནང་ནས་ཅ་དངོས་རེ་ཟུང་བཙོང་བར་མཐའ་མཇུག་གི་འབད་བརྩོན་བྱེད་ཀྱིན་འདུག
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l3"><h3>
 	Hawkers pushed each other to make their way out of the bus. Some gave back change to the travellers. Others made last minute attempts to sell more items.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text10" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text12" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio11" onended="resetbutton('11')" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/11.mp3"></audio>
+		<audio id="audio11" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/11.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton11" onclick="playpause('11')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,ne','ne,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
-		<button onclick="switchlang('zh,en','ne,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and English">en</button>
+		<button onclick="switchlang('zh,ne','ne,bo,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
+		<button onclick="switchlang('zh,bo','ne,bo,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and Tibetan">bo</button>
+		<button onclick="switchlang('zh,en','ne,bo,en,zh')" class="btn btn-lg lang-tertiary" title="Switch between Chinese (Mandarin) and English">en</button>
 	</div>
 </div>
 
@@ -384,7 +416,6 @@
 <div id="text12" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0324/12.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-
 	大巴车缓缓离开了车站，我看着窗外，不知道今后会不会有机会回来了。
 	</h3></div>
 
@@ -392,18 +423,22 @@
 	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
+	འགྲུལ་འཁོར་དེ་འབབ་ཚུགས་དང་ཡུན་གྱིས་གྱེས་སོང་། ངས་སྒེའུ་ཁུང་ནས་ཕྱི་རོལ་ལ་ཅེར་ཞིང་། ད་ནི་ཕྱིར་རང་གི་གྲོང་གསེབ་འདི་ལ་ཡོང་ཐུབ་པའི་དུས་ཤིག་ཨེ་ཡོད་སྙམ་པའི་ཐེ་ཚོམ་གྱི་བློ་ཞིག་ཀྱང་སྐྱེས།
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l3"><h3>
 	As the bus left the bus stop, I stared out of the window. I wondered if I would ever go back to my village again.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text11" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text13" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio12" onended="resetbutton('12')" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/12.mp3"></audio>
+		<audio id="audio12" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/12.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton12" onclick="playpause('12')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,ne','ne,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
-		<button onclick="switchlang('zh,en','ne,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and English">en</button>
+		<button onclick="switchlang('zh,ne','ne,bo,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
+		<button onclick="switchlang('zh,bo','ne,bo,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and Tibetan">bo</button>
+		<button onclick="switchlang('zh,en','ne,bo,en,zh')" class="btn btn-lg lang-tertiary" title="Switch between Chinese (Mandarin) and English">en</button>
 	</div>
 </div>
 
@@ -413,7 +448,6 @@
 <div id="text13" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0324/13.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-
 	旅程渐渐展开，车厢里慢慢热了起来，我闭上眼睛，想小睡一会儿。
 	</h3></div>
 
@@ -421,18 +455,22 @@
 	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
+	འགྲུལ་བཞུད་རིང་ནས་རིང་དུ་ཕྱིན་སྐབས། རླངས་འཁོར་གྱི་ནང་དུ་ཚ་བ་ཇེ་ཆེ་རེད། ངས་ནི་རང་ཉིད་གཉིད་ཁུག་ཨེ་ཐུབ་བསམ་ནས་མིག་གཉིས་བཙུམ་ནས་ཕྱིན་པ་ཡིན།
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l3"><h3>
 	As the journey progressed, the inside of the bus got very hot. I closed my eyes hoping to sleep.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text12" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text14" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio13" onended="resetbutton('13')" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/13.mp3"></audio>
+		<audio id="audio13" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/13.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton13" onclick="playpause('13')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,ne','ne,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
-		<button onclick="switchlang('zh,en','ne,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and English">en</button>
+		<button onclick="switchlang('zh,ne','ne,bo,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
+		<button onclick="switchlang('zh,bo','ne,bo,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and Tibetan">bo</button>
+		<button onclick="switchlang('zh,en','ne,bo,en,zh')" class="btn btn-lg lang-tertiary" title="Switch between Chinese (Mandarin) and English">en</button>
 	</div>
 </div>
 
@@ -442,7 +480,6 @@
 <div id="text14" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0324/14.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-
 	但我的思绪却飞回了家。我的妈妈安全吗？我的兔子会卖了赚钱吗？我的弟弟会帮着给小树苗浇水吗？
 	</h3></div>
 
@@ -450,18 +487,22 @@
 	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
+	ཡིན་ནའང་ངའི་བསམ་བློ་ཕྱིར་ཕ་ཡུལ་ལ་འཁོར། ངའི་ཨ་མ་ལགས་བདེ་འཚམ་ངང་སྡོད་ཐུབ་བམ། ངའི་རི་བོང་གིས་དངུལ་འཁྱེར་ཡོང་ཐུབ་བམ། ངའི་སྤུན་མཆེད་ཀྱིས་ངའི་ཤིང་སྡོང་གི་རྩད་པར་ཆུ་གཏོར་རྒྱུ་དྲན་སོས་ཐུབ་ཀྱི་ཡོད་དམ།
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l3"><h3>
 	But my mind drifted back home. Will my mother be safe? Will my rabbits fetch any money? Will my brother remember to water my tree seedlings?
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text13" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text15" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio14" onended="resetbutton('14')" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/14.mp3"></audio>
+		<audio id="audio14" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/14.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton14" onclick="playpause('14')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,ne','ne,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
-		<button onclick="switchlang('zh,en','ne,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and English">en</button>
+		<button onclick="switchlang('zh,ne','ne,bo,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
+		<button onclick="switchlang('zh,bo','ne,bo,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and Tibetan">bo</button>
+		<button onclick="switchlang('zh,en','ne,bo,en,zh')" class="btn btn-lg lang-tertiary" title="Switch between Chinese (Mandarin) and English">en</button>
 	</div>
 </div>
 
@@ -471,7 +512,6 @@
 <div id="text15" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0324/15.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-
 	在路上，我努力记住我叔叔在城市里的地址。我迷迷糊糊地说着地址，沉沉地睡去。
 	</h3></div>
 
@@ -479,18 +519,22 @@
 	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
+	ལམ་བར་ནས། ངས་གྲོང་ཁྱེར་ཆེན་པོ་དེའི་ནང་ཡོད་པའི་རང་གི་ཨ་ཁུ་སྡོད་སའི་ས་ཆ་དེའི་མིང་དེ་བློ་ལ་སྐྱོར་བ་ཡིན། ང་རང་གཉིད་ལ་ཤོར་སྐབས་སུའང་ངས་ས་མིང་དེ་ཁ་ནས་མུར་མུར་དུ་སྐྱོར་བཞིན་ཡོད།
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l3"><h3>
 	On the way, I memorised the name of the place where my uncle lived in the big city. I was still mumbling it when I fell asleep.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text14" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text16" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio15" onended="resetbutton('15')" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/15.mp3"></audio>
+		<audio id="audio15" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/15.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton15" onclick="playpause('15')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,ne','ne,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
-		<button onclick="switchlang('zh,en','ne,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and English">en</button>
+		<button onclick="switchlang('zh,ne','ne,bo,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
+		<button onclick="switchlang('zh,bo','ne,bo,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and Tibetan">bo</button>
+		<button onclick="switchlang('zh,en','ne,bo,en,zh')" class="btn btn-lg lang-tertiary" title="Switch between Chinese (Mandarin) and English">en</button>
 	</div>
 </div>
 
@@ -500,7 +544,6 @@
 <div id="text16" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0324/16.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-
 	过了九个小时，我被售票员的叫喊声吵醒了，他在喊乘客坐车回村庄。我一把抓住我的包，跳下了车。
 	</h3></div>
 
@@ -508,18 +551,22 @@
 	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
+	དུས་ཚོད་དགུ་ཡི་རྗེས་ལ། སྒྲ་ཆེན་པོ་ཞིག་གིས་ང་གཉིད་ལས་བསླངས་ཤིང་། ཁ་ལོ་བས་ཕྱིར་ངའི་ཕ་ཡུལ་གྲོང་གསེབ་ལ་འགྲོ་མཁན་གྱི་འགྲུལ་བ་སྐད་གཏོང་གི་འདུག ངས་མགྱོགས་པོར་རང་གི་རྒྱབ་ཁུག་ཆུང་ཆུང་དེ་འཇུས་ཤིང་། རླངས་འཁོར་ལས་སར་བབས་པ་ཡིན།
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l3"><h3>
 	Nine hours later, I woke up with loud banging and calling for passengers going back to my village. I grabbed my small bag and jumped out of the bus.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text15" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text17" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio16" onended="resetbutton('16')" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/16.mp3"></audio>
+		<audio id="audio16" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/16.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton16" onclick="playpause('16')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,ne','ne,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
-		<button onclick="switchlang('zh,en','ne,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and English">en</button>
+		<button onclick="switchlang('zh,ne','ne,bo,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
+		<button onclick="switchlang('zh,bo','ne,bo,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and Tibetan">bo</button>
+		<button onclick="switchlang('zh,en','ne,bo,en,zh')" class="btn btn-lg lang-tertiary" title="Switch between Chinese (Mandarin) and English">en</button>
 	</div>
 </div>
 
@@ -529,7 +576,6 @@
 <div id="text17" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0324/17.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3>
-
 	回程的大巴车很快就坐满了，不久就要开回东边的村庄去了。对我来说，现在最重要的事情就是找到我叔叔的家。
 	</h3></div>
 
@@ -537,33 +583,38 @@
 	
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
+	ཕྱིར་ལོག་པའི་རླངས་འཁོར་དེ་ལམ་སེང་ཁེངས་སོང་ལ། ཅུང་མི་འགོར་བར་རླངས་འཁོར་དེ་ཕྱིར་ཤར་ཕྱོགས་སུ་ལམ་ལ་ཆས་འགྲོ་གི་རེད། སྐབས་འདིར། ང་ལ་མཚོན་ན་དོན་དག་གལ་ཆེ་ཤོས་ནི་གཞི་ནས་སོ་སོའི་ཨ་ཁུ་འཚོལ་དགོས་པ་དེ་རེད།
+	</h3></div>
+	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l3"><h3>
 	The return bus was filling up quickly. Soon it would make its way back east. The most important thing for me now, was to start looking for my uncle’s house.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text16" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#colophon" class="btn btn-lg" title="Story credits"><i class="icon-arrow-down"></i></a>
-		<audio id="audio17" onended="resetbutton('17')" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/17.mp3"></audio>
+		<audio id="audio17" src="https://globalstorybooks.net/media/audio/zh/0324/mp3/17.mp3"></audio>
 		<button class="btn btn-lg" id="playbutton17" onclick="playpause('17')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
-		<button onclick="switchlang('zh,ne','ne,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
-		<button onclick="switchlang('zh,en','ne,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and English">en</button>
+		<button onclick="switchlang('zh,ne','ne,bo,en,zh')" class="btn btn-lg lang-primary" title="Switch between Chinese (Mandarin) and Nepali">ne</button>
+		<button onclick="switchlang('zh,bo','ne,bo,en,zh')" class="btn btn-lg lang-secondary" title="Switch between Chinese (Mandarin) and Tibetan">bo</button>
+		<button onclick="switchlang('zh,en','ne,bo,en,zh')" class="btn btn-lg lang-tertiary" title="Switch between Chinese (Mandarin) and English">en</button>
 	</div>
 </div>
 
 </div>
 <hr>
 
-<div id="colophon" class="columns">
+
+        <div id="colophon" class="columns">
 	<div class="column col-7 col-lg-12 col-md-12 col-sm-12">
-		<h5>Written by: Lesley Koyi, Ursula Nafula</h5>
-		<h5>Illustrated by: Brian Wambi</h5>
-		<h5>Translated by: Vicky Liu</h5>
-		<h5>Read by: Zhuo Sun</h5>
-		<h5>Language: <a href="/storybooks-himalaya/stories/zh">Chinese (Mandarin)</a></h5>
-		<h5><a href="/storybooks-himalaya/stories/zh/level3">Level 3</a></h5>
-		<h5>Source: <a href="https://africanstorybook.org/reader.php?id=15029" target="_blank">The day I left home for the city</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
+		<h5><span class="colophon-heading">Written by:</span> Lesley Koyi, Ursula Nafula</h5>
+		<h5><span class="colophon-heading">Illustrated by:</span> Brian Wambi</h5>
+		<h5><span class="colophon-heading">Translated by:</span> Vicky Liu</h5>
+		<h5><span class="colophon-heading">Read by:</span> Zhuo Sun</h5>
+		<h5><span class="colophon-heading">Language:</span> <a href="/storybooks-himalaya/stories/zh">Chinese (Mandarin)</a></h5>
+		<h5><span class="colophon-heading">Level:</span> <a href="/storybooks-himalaya/stories/zh/level3">Level 3</a></h5>
+		<h5><span class="colophon-heading">Source:</span> <a href="https://africanstorybook.org/reader.php?id=15029" target="_blank">The day I left home for the city</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
 		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</div>
 
@@ -581,10 +632,9 @@
 </div>
 <div>
 <h5>Options</h5>
-	<a class="btn btn-lg" href="/storybooks-himalaya/stories/zh" class="button">Back to stories list</a> <a class="btn btn-lg disabled" target="_blank" href="">Download PDF</a>
+	<a class="btn btn-lg" href="/storybooks-himalaya/stories/zh" class="button">Back to stories list</a> <a class="btn btn-lg" href="https://globalstorybooks.net/media/sbhim/pdf/zh/zh-0324_city.pdf" target="_blank">Download PDF</a>
 <br><br>
 </div>
-
 
 
     </div>
